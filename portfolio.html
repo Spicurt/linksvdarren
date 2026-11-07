@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Darren Guo – UGC portfolio</title>
+<meta name="description" content="Darren Guo UGC portfolio: 200K+ views across platforms.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8E%AC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F1EC; --surface:#FFFFFF; --ink:#14161F; --muted:#5E6270; --line:#D9D6CE;
+  --accent:#2B3BFF; --on-accent:#FFFFFF; --hi:#F5E27A; --on-hi:#14161F;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1018; --surface:#181B27; --ink:#F2F1EC; --muted:#A0A4B4; --line:#2A2E3F;
+    --accent:#7C88FF; --on-accent:#0E1018; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1018; --surface:#181B27; --ink:#F2F1EC; --muted:#A0A4B4; --line:#2A2E3F;
+  --accent:#7C88FF; --on-accent:#0E1018; color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.5; -webkit-font-smoothing:antialiased}
+main{max-width:640px; margin:0 auto; padding:28px 22px 56px}
+.top{display:flex; align-items:center; justify-content:space-between; margin-bottom:44px}
+.who{display:flex; align-items:center; gap:12px; color:var(--ink); text-decoration:none; font-weight:600}
+.who img{width:44px; height:44px; border-radius:12px; border:2px solid var(--ink); object-fit:cover}
+.back{color:var(--muted); font-size:.95rem; text-decoration:none}
+.back:hover{color:var(--ink)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent); outline-offset:3px}
+h1{margin:0; font-weight:800; letter-spacing:-.04em; line-height:.9; font-size:clamp(5rem,28vw,10rem)}
+h1 span{background:linear-gradient(transparent 62%, var(--hi) 62%, var(--hi) 92%, transparent 92%)}
+.lede{font-size:clamp(1.2rem,4.6vw,1.5rem); font-weight:600; letter-spacing:-.01em; margin:18px 0 8px; max-width:30ch}
+.sub{color:var(--muted); margin:0 0 48px; max-width:46ch}
+h2{font-size:1.5rem; letter-spacing:-.02em; margin:0 0 6px}
+.note{color:var(--muted); margin:0 0 18px}
+.reels{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:48px}
+.reel{
+  position:relative; display:flex; flex-direction:column; justify-content:space-between;
+  aspect-ratio:9/16; padding:12px; border-radius:18px; text-decoration:none; overflow:hidden;
+  border:2px solid var(--ink); transition:transform .15s ease;
+}
+.reel:hover{transform:translateY(-4px)}
+.reel:nth-child(1){background:var(--accent); color:var(--on-accent)}
+.reel:nth-child(2){background:var(--hi); color:var(--on-hi)}
+.reel:nth-child(3){background:var(--surface); color:var(--ink)}
+.play{width:46px; height:46px; margin:auto; border-radius:50%; border:2px solid currentColor; display:grid; place-items:center}
+.play svg{width:20px; height:20px; margin-left:3px}
+.reel b{font-size:.95rem; line-height:1.2}
+.reel small{display:block; font-weight:400; opacity:.8; font-size:.8rem}
+.cta{background:var(--surface); border:1px solid var(--line); border-radius:20px; padding:22px; display:flex; flex-wrap:wrap; gap:14px; align-items:center; justify-content:space-between}
+.cta p{margin:0; font-weight:600; font-size:1.1rem; max-width:24ch}
+.btn{display:inline-block; background:var(--accent); color:var(--on-accent); padding:13px 20px; border-radius:14px; font-weight:600; text-decoration:none}
+.btn:hover{filter:brightness(1.08)}
+@media (max-width:420px){.reel{padding:9px; border-radius:14px}.reel b{font-size:.82rem}.play{width:38px;height:38px}}
+@media (prefers-reduced-motion:reduce){.reel{transition:none}.reel:hover{transform:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <a class="who" href="/"><img src="photo.jpg" alt="Darren Guo"> Darren Guo</a>
+    <a class="back" href="/">All my links</a>
+  </div>
+
+  <h1><span>200K+</span></h1>
+  <p class="lede">views across Instagram, TikTok and more.</p>
+  <p class="sub">I make UGC that holds attention and looks like it belongs in the feed. Here are three videos that show how I work.</p>
+
+  <h2>Featured videos</h2>
+  <p class="note">Tap a video to watch it on its original platform.</p>
+  <div class="reels">
+    <a class="reel" href="https://www.instagram.com/p/DfPiFsFT6C4/" target="_blank" rel="noopener" aria-label="Watch Instagram video on Instagram">
+      <span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"/></svg></span>
+      <b>Instagram<small>Watch video</small></b>
+    </a>
+    <a class="reel" href="https://www.tiktok.com/@darrenator.mp4/video/7703292231670631688" target="_blank" rel="noopener" aria-label="Watch TikTok video on TikTok">
+      <span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"/></svg></span>
+      <b>TikTok<small>Watch video</small></b>
+    </a>
+    <a class="reel" href="https://www.instagram.com/p/DfVWywKpiH8/" target="_blank" rel="noopener" aria-label="Watch second Instagram video on Instagram">
+      <span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4l14 8-14 8z"/></svg></span>
+      <b>Instagram<small>Watch video</small></b>
+    </a>
+  </div>
+
+  <div class="cta">
+    <p>Want content like this for your brand?</p>
+    <a class="btn" href="https://www.instagram.com/lv.darren" target="_blank" rel="noopener">Message me on Instagram</a>
+  </div>
+</main>
+</body>
+</html>
